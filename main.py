@@ -33,18 +33,18 @@ Escolha uma entrada:
             elif variavel_de_entrada == 3:  # Chama a função 'multiplicação'
                 numero_um = float(input("Digite o primeiro número: "))
                 numero_dois = float(input("Digite o segundo número: "))
-                print(f"A multiplicação de {numero_um} pelo {numero_dois} é", numero_um * numero_dois)
+                print(f"A multiplicação de {numero_um} pelo múmero {numero_dois} é", numero_um * numero_dois)
                 
             elif variavel_de_entrada == 4:  # Chama a função 'divisão'
                 try:
                     numero_um = float(input("Digite o primeiro número: "))
                     numero_dois = float(input("Digite o segundo número: "))
-                    print(f"A divisão de {numero_um} pelo {numero_dois} é", numero_um / numero_dois)
+                    print(f"A divisão de {numero_um} pelo número {numero_dois} é", numero_um / numero_dois)
                 except ZeroDivisionError:  # Informa o usuário caso ele tente realizar a divisão por 0
                     print("Não é permitido divisões por 0")
             
             elif variavel_de_entrada == 0:  # Chama a função 'encerrar programa'
-                print("Programa encerrado...")
+                print("Programa encerrado...\nPrecione 'ENTER' para fechar a janela")
                 input()  # Não obrigatório, porém recomendo usá-lo caso deseje executá-lo no terminal
                 end = True # Função
             
