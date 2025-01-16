@@ -1,4 +1,4 @@
-# Variáveis globais
+# Variável global
 end = False
 
 # Aqui iniciamos o nosso programa
